@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>404 · 页面不存在 — 吕翔宇</title>
+<meta name="robots" content="noindex">
+
+<link rel="icon" type="image/png" href="/assets/img/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/style.css">
+
+<script>
+  (function () {
+    var stored = null;
+    try { stored = localStorage.getItem('xy-theme'); } catch (e) {}
+    var prefersDark = window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.setAttribute(
+      'data-theme', stored || (prefersDark ? 'dark' : 'light')
+    );
+  })();
+</script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/">吕翔宇<span> / Xiangyu Lyu</span></a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-id">
+        <h1>404</h1>
+        <p class="hero-role">PAGE NOT FOUND</p>
+      </div>
+
+      <p class="hero-lead">这个页面不存在——链接可能已经失效，或者地址敲错了。</p>
+      <p class="hero-lead">
+        回到<a href="/" style="color:var(--accent)">首页</a>，或者写信告诉我哪里坏了：lyu@xiangyu.io
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>© 2026 吕翔宇</span>
+    <a class="to-top" href="/">
+      回到首页
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
