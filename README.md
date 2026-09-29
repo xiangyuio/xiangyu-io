@@ -22,6 +22,8 @@
 ├── 404.html            # 自定义 404，资源用绝对路径，可在任意深度命中
 ├── robots.txt
 ├── sitemap.xml
+├── LICENSE             # MIT，覆盖代码部分
+├── NOTICE              # 头像、文案与 xiangyu.io 标识保留所有权利
 └── assets/
     ├── style.css       # 全部样式，CSS 变量驱动主题
     ├── main.js         # 主题切换、滚动吸顶、入场动画、邮箱复制
@@ -38,6 +40,15 @@
 python -m http.server 8000
 # 然后访问 http://localhost:8000
 ```
+
+## 许可
+
+双许可，详见 [LICENSE](LICENSE) 与 [NOTICE](NOTICE)：
+
+- **代码**（`index.html`、`404.html`、`assets/style.css`、`assets/main.js` 等）：MIT，欢迎自由参考、复用、改造。
+- **个人内容**（`assets/img/` 下的图片、全部文案、姓名与「xiangyu.io」标识）：保留所有权利，不在 MIT 范围内。
+
+想 fork 去搭自己的主页？代码随便用，但请把头像、文案和署名全部换成你自己的。
 
 ## 联系
 

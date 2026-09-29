@@ -1,0 +1,13 @@
+Copyright (c) 2026 Xiangyu Lyu (吕翔宇) — https://xiangyu.io
+
+本仓库的代码以 MIT 许可证发布，见 LICENSE。
+
+但 MIT 许可**不适用于**以下内容，这些内容保留所有权利（All Rights Reserved）。未经本人事先书面许可，不得复制、修改、分发或用于任何商业目的：
+
+- `assets/img/` 下的全部图片，包括头像 `avatar.jpg` 与 `apple-touch-icon.png`；
+- 站点上的全部个人文案：姓名、自我介绍、联系方式，以及任何描述本人的文字；
+- 「吕翔宇」「Xiangyu Lyu」「xiangyu.io」等名称、标识与域名。
+
+如果你 fork 本仓库来搭建自己的主页，欢迎自由使用代码结构与样式实现，但请务必把上述内容全部替换为你自己的信息。
+
+联系：lyu@xiangyu.io
