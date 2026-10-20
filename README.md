@@ -18,7 +18,7 @@
 
 ```
 .
-├── index.html          # 单页主体（关于 + 联系）
+├── index.html          # 单页主体（关于 + 项目 + 联系）
 ├── 404.html            # 自定义 404，资源用绝对路径，可在任意深度命中
 ├── robots.txt
 ├── sitemap.xml
